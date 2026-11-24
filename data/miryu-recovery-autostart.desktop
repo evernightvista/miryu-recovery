@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Miryu Recovery
+Icon=backup
+Exec=systemctl --user start miryu-recovery.service
+Terminal=false
+StartupNotify=false
+NoDisplay=true
+OnlyShowIn=KDE;
+X-KDE-autostart-phase=Applications

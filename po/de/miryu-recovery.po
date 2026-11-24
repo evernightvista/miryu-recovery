@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Miryu Recovery 45.0.0\n"
+"POT-Creation-Date: 2026-11-24 00:00+0000\n"
+"PO-Revision-Date: 2026-11-24 00:00+0000\n"
+"Last-Translator: Miryu Localization\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Miryu Recovery"
+msgstr "Miryu-Wiederherstellung"
+
+msgid "Btrfs snapshot started successfully"
+msgstr "Btrfs-Snapshot erfolgreich gestartet"
+
+msgid "You are running Btrfs snapshot #%1. To make this snapshot permanent, click 'Rollback Snapshot'. Otherwise, keep the snapshot for this boot."
+msgstr "Sie verwenden derzeit den Btrfs-Snapshot Nr. %1. Um diesen Snapshot dauerhaft zu übernehmen, klicken Sie auf 'Snapshot zurücksetzen'. Andernfalls bleibt der Snapshot nur für diesen Systemstart aktiv."
+
+msgid "Rollback Snapshot"
+msgstr "Snapshot zurücksetzen"
+
+msgid "Keep Snapshot"
+msgstr "Snapshot behalten"
+
+msgid "Snapshot rollback completed"
+msgstr "Snapshot-Wiederherstellung abgeschlossen"
+
+msgid "Restart your computer now to finish rolling back the snapshot."
+msgstr "Starten Sie den Computer jetzt neu, um die Snapshot-Wiederherstellung abzuschließen."
+
+msgid "Restart Now"
+msgstr "Jetzt neu starten"
+
+msgid "Snapshot rollback failed"
+msgstr "Snapshot-Wiederherstellung fehlgeschlagen"
+
+msgid "The snapshot could not be restored. Check the system state before restarting."
+msgstr "Der Snapshot konnte nicht wiederhergestellt werden. Prüfen Sie den Systemzustand vor einem Neustart."
+
+msgid "Authentication failed or was cancelled."
+msgstr "Die Authentifizierung ist fehlgeschlagen oder wurde abgebrochen."

@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Miryu Recovery 45.0.0\n"
+"POT-Creation-Date: 2026-11-24 00:00+0000\n"
+"PO-Revision-Date: 2026-11-24 00:00+0000\n"
+"Last-Translator: Miryu Localization\n"
+"Language-Team: Traditional Chinese\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Miryu Recovery"
+msgstr "Miryu 恢復"
+
+msgid "Btrfs snapshot started successfully"
+msgstr "Btrfs 快照已成功啟動"
+
+msgid "You are running Btrfs snapshot #%1. To make this snapshot permanent, click 'Rollback Snapshot'. Otherwise, keep the snapshot for this boot."
+msgstr "您正在執行 Btrfs 快照 #%1。若要永久復原此快照，請按一下「回滾快照」；否則，僅在本次開機中保留快照。"
+
+msgid "Rollback Snapshot"
+msgstr "回滾快照"
+
+msgid "Keep Snapshot"
+msgstr "保留快照"
+
+msgid "Snapshot rollback completed"
+msgstr "回滾快照完成"
+
+msgid "Restart your computer now to finish rolling back the snapshot."
+msgstr "請立即重新啟動電腦以完成快照回滾。"
+
+msgid "Restart Now"
+msgstr "立即重新啟動"
+
+msgid "Snapshot rollback failed"
+msgstr "快照回滾失敗"
+
+msgid "The snapshot could not be restored. Check the system state before restarting."
+msgstr "無法復原快照。請在重新啟動前檢查系統狀態。"
+
+msgid "Authentication failed or was cancelled."
+msgstr "驗證失敗或已取消。"

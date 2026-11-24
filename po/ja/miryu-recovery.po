@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Miryu Recovery 45.0.0\n"
+"POT-Creation-Date: 2026-11-24 00:00+0000\n"
+"PO-Revision-Date: 2026-11-24 00:00+0000\n"
+"Last-Translator: Miryu Localization\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Miryu Recovery"
+msgstr "Miryu 復元"
+
+msgid "Btrfs snapshot started successfully"
+msgstr "Btrfs スナップショットを起動しました"
+
+msgid "You are running Btrfs snapshot #%1. To make this snapshot permanent, click 'Rollback Snapshot'. Otherwise, keep the snapshot for this boot."
+msgstr "現在、Btrfs スナップショット #%1 から実行しています。このスナップショットを恒久的に復元するには「スナップショットをロールバック」をクリックしてください。復元しない場合は、この起動中だけスナップショットを使用できます。"
+
+msgid "Rollback Snapshot"
+msgstr "スナップショットをロールバック"
+
+msgid "Keep Snapshot"
+msgstr "スナップショットを保持"
+
+msgid "Snapshot rollback completed"
+msgstr "スナップショットのロールバックが完了しました"
+
+msgid "Restart your computer now to finish rolling back the snapshot."
+msgstr "スナップショットのロールバックを完了するには、今すぐコンピューターを再起動してください。"
+
+msgid "Restart Now"
+msgstr "今すぐ再起動"
+
+msgid "Snapshot rollback failed"
+msgstr "スナップショットのロールバックに失敗しました"
+
+msgid "The snapshot could not be restored. Check the system state before restarting."
+msgstr "スナップショットを復元できませんでした。再起動する前にシステムの状態を確認してください。"
+
+msgid "Authentication failed or was cancelled."
+msgstr "認証に失敗したか、キャンセルされました。"

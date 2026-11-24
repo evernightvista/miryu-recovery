@@ -1,0 +1,59 @@
+[Global]
+Name=Miryu Recovery
+Name[de]=Miryu-Wiederherstellung
+Name[ja]=Miryu 復元
+Name[ko]=Miryu 복구
+Name[zh_CN]=Miryu 恢复
+Name[zh_TW]=Miryu 恢復
+Comment=Notify when the system has booted from a Btrfs snapshot
+Comment[de]=Benachrichtigt, wenn das System von einem Btrfs-Snapshot gestartet wurde
+Comment[ja]=システムが Btrfs スナップショットから起動したときに通知します
+Comment[ko]=시스템이 Btrfs 스냅숏에서 부팅되었을 때 알립니다
+Comment[zh_CN]=当系统从 Btrfs 快照启动时发出通知
+Comment[zh_TW]=當系統從 Btrfs 快照啟動時發出通知
+IconName=backup
+
+[Event/SnapshotBooted]
+Name=Btrfs snapshot booted
+Name[de]=Btrfs-Snapshot gestartet
+Name[ja]=Btrfs スナップショットで起動
+Name[ko]=Btrfs 스냅숏으로 부팅됨
+Name[zh_CN]=已从 Btrfs 快照启动
+Name[zh_TW]=已從 Btrfs 快照啟動
+Comment=The system has booted from a Btrfs snapshot
+Comment[de]=Das System wurde von einem Btrfs-Snapshot gestartet
+Comment[ja]=システムは Btrfs スナップショットから起動しました
+Comment[ko]=시스템이 Btrfs 스냅숏에서 부팅되었습니다
+Comment[zh_CN]=系统已从 Btrfs 快照启动
+Comment[zh_TW]=系統已從 Btrfs 快照啟動
+Action=Popup
+
+[Event/RollbackCompleted]
+Name=Snapshot rollback completed
+Name[de]=Snapshot-Wiederherstellung abgeschlossen
+Name[ja]=スナップショットのロールバックが完了しました
+Name[ko]=스냅숏 롤백 완료
+Name[zh_CN]=回滚快照完成
+Name[zh_TW]=回滾快照完成
+Comment=The booted snapshot has been restored
+Comment[de]=Der gestartete Snapshot wurde wiederhergestellt
+Comment[ja]=起動したスナップショットが復元されました
+Comment[ko]=부팅된 스냅숏이 복원되었습니다
+Comment[zh_CN]=已恢复启动的快照
+Comment[zh_TW]=已還原啟動的快照
+Action=Popup
+
+[Event/RollbackFailed]
+Name=Snapshot rollback failed
+Name[de]=Snapshot-Wiederherstellung fehlgeschlagen
+Name[ja]=スナップショットのロールバックに失敗しました
+Name[ko]=스냅숏 롤백 실패
+Name[zh_CN]=快照回滚失败
+Name[zh_TW]=快照回滾失敗
+Comment=The booted snapshot could not be restored
+Comment[de]=Der gestartete Snapshot konnte nicht wiederhergestellt werden
+Comment[ja]=起動したスナップショットを復元できませんでした
+Comment[ko]=부팅된 스냅숏을 복원할 수 없습니다
+Comment[zh_CN]=无法恢复启动的快照
+Comment[zh_TW]=無法還原啟動的快照
+Action=Popup

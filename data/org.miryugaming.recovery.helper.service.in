@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=org.miryugaming.recovery.helper
+Exec=@MIRYU_HELPER_PATH@
+User=root

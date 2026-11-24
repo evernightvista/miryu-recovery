@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+NoDisplay=true
+Name=Miryu Recovery
+Name[de]=Miryu-Wiederherstellung
+Name[ja]=Miryu 復元
+Name[ko]=Miryu 복구
+Name[zh_CN]=Miryu 恢复
+Name[zh_TW]=Miryu 恢復
+Comment=Notify when the system has booted from a Btrfs snapshot
+Comment[de]=Benachrichtigt, wenn das System von einem Btrfs-Snapshot gestartet wurde
+Comment[ja]=システムが Btrfs スナップショットから起動したときに通知します
+Comment[ko]=시스템이 Btrfs 스냅숏에서 부팅되었을 때 알립니다
+Comment[zh_CN]=当系统从 Btrfs 快照启动时发出通知
+Comment[zh_TW]=當系統從 Btrfs 快照啟動時發出通知
+Icon=backup
+Exec=systemctl --user start miryu-recovery.service
+Terminal=false
+StartupNotify=false
+OnlyShowIn=KDE;
+Categories=System;

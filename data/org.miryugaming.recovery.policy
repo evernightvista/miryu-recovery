@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD polkit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/software/polkit/policyconfig-1.dtd">
+<policyconfig>
+  <vendor>Evernight Vista Team</vendor>
+  <vendor_url>https://github.com/evernightvista</vendor_url>
+  <icon_name>backup</icon_name>
+
+  <action id="org.miryugaming.recovery">
+    <description>Roll back the Btrfs snapshot</description>
+    <description xml:lang="de">Btrfs-Snapshot zurücksetzen</description>
+    <description xml:lang="ja">Btrfs スナップショットをロールバック</description>
+    <description xml:lang="ko">Btrfs 스냅숏 롤백</description>
+    <description xml:lang="zh_CN">回滚 Btrfs 快照</description>
+    <description xml:lang="zh_TW">回滾 Btrfs 快照</description>
+    <message>Authentication is required to roll back the snapshot</message>
+    <message xml:lang="de">Zum Zurücksetzen des Snapshots ist eine Authentifizierung erforderlich</message>
+    <message xml:lang="ja">スナップショットをロールバックするには認証が必要です</message>
+    <message xml:lang="ko">스냅숏을 롤백하려면 인증이 필요합니다</message>
+    <message xml:lang="zh_CN">回滚快照需要认证</message>
+    <message xml:lang="zh_TW">回滾快照需要驗證</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+  </action>
+</policyconfig>

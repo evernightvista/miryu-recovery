@@ -1,0 +1,12 @@
+[Unit]
+Description=Miryu Recovery snapshot notification
+ConditionKernelCommandLine=systemd.volatile=overlay
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=@MIRYU_LIBEXECDIR@/miryu-recovery
+
+[Install]
+WantedBy=graphical-session.target
